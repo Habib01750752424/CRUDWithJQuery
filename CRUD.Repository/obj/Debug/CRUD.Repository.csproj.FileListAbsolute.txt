@@ -1,0 +1,17 @@
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\CRUD.Repository.dll.config
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\CRUD.Repository.dll
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\CRUD.Repository.pdb
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\EntityFramework.dll
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\EntityFramework.xml
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\obj\Debug\CRUD.Repository.csprojAssemblyReference.cache
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\obj\Debug\CRUD.Repository.csproj.CoreCompileInputs.cache
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\obj\Debug\CRUD.Repository.csproj.CopyComplete
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\obj\Debug\CRUD.Repository.dll
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\obj\Debug\CRUD.Repository.pdb
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\CRUD.DatabaseContext.dll
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\CRUD.Model.dll
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\CRUD.DatabaseContext.pdb
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\CRUD.DatabaseContext.dll.config
+D:\Data Files\Desktop\CRUDApp\CRUD\CRUD.Repository\bin\Debug\CRUD.Model.pdb

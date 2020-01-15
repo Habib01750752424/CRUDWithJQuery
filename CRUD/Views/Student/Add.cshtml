@@ -1,0 +1,105 @@
+﻿@model CRUD.Models.StudentViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h2>Add Student</h2>
+    @if (ViewBag.Message != null)
+    {
+        <h2 style="color:green;"><b>@ViewBag.Message</b></h2>
+    }
+    else
+    {
+        <h2 style="color:red;"><b>@ViewBag.Message</b></h2>
+    }
+    <table>
+        <form method="post">
+            <tr>
+                <th>@Html.LabelFor(c => c.Name)</th>
+                <td>@Html.TextBoxFor(c => c.Name)</td>
+                <td>@Html.ValidationMessageFor(c => c.Name)</td>
+            </tr>
+            <tr>
+                <th>@Html.LabelFor(c => c.Email)</th>
+                <td>@Html.TextBoxFor(c => c.Email)</td>
+                <td>@Html.ValidationMessageFor(c => c.Email)</td>
+            </tr>
+            <tr>
+
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </form>
+    </table>
+
+
+    <br /><br />
+    <h2>All Student</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>SL</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int sl = 1;
+            }
+            @foreach (var student in Model.Students)
+            {
+                <tr>
+                    <td>@(sl++)</td>
+                    <td>@student.Name</td>
+                    <td>@student.Email</td>
+                    <td>
+                        <span>
+                            @Html.ActionLink("Edit", "EditStudent", "Student", new { Id = student.Id },
+                               new {style = "text-decoration:none;font-weight:bold;" })
+                        </span>
+                        <span>
+                            @Html.ActionLink("Delete", "DeleteStudent", "Student", new { Id = student.Id },
+                               new {style = "text-decoration:none;font-weight:bold;" })
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
